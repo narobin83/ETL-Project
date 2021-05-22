@@ -8,8 +8,8 @@ CREATE TABLE oscars (
 
 CREATE TABLE rotten_tomatoes_data (
     title VARCHAR PRIMARY KEY NOT NULL,
-    critic_score INT NOT NULL,
-    people_score INT NOT NULL,
+    critic_score VARCHAR NOT NULL,
+    people_score VARCHAR NOT NULL,
     total_reviews INT NOT NULL,
     rating VARCHAR NOT NULL
 );
